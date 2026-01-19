@@ -1,0 +1,220 @@
+/* ==========================
+   RESET OINARRIZKOA
+========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   BODY / ORRI OROKORRA
+========================== */
+body {
+    font-family: 'Segoe UI', Roboto, Inter, Arial, sans-serif;
+    background: #e3e3e3; 
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================
+   GOIBURUA (HEADER)
+========================== */
+.site-header {
+    background: linear-gradient(145deg, #1f1f1f, #3a3a3a);
+    padding: 15px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.header-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* LOGOA */
+.logo h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* LOGOKO "STOP" HITZA */
+.gradient-word {
+    color: #e60012; 
+}
+
+/* ==========================
+   NABIGAZIO MENUA
+========================== */
+.header-buttons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #444444;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+.header-buttons a:hover {
+    background: #e60012;
+}
+
+/* ==========================
+   EDUKI NAGUSIA (MAIN)
+========================== */
+main {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+#berriak-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ==========================
+   ORRIALDEKO TITULU NAGUSIA
+========================== */
+.berriak-titulua {
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', 'Segoe UI', Roboto, Inter, Arial, sans-serif;
+    font-weight: 800;
+    text-shadow: 0 3px 6px rgba(255,255,255,0.85);
+}
+
+/* ==========================
+   BERRI NAGUSIA
+========================== */
+.berria-nagusia {
+    background: #dcdcdc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    border: 1.5px solid #8a8a8a; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.berria-nagusia img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.berria-nagusia .berria-edukia {
+    padding: 35px;
+    text-align: center;
+}
+
+.berria-nagusia h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(255,255,255,0.7);
+}
+
+/* ==========================
+   BERRIEN GRID ESTRUKTURA
+========================== */
+.berriak-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* ==========================
+   BERRI ARRUNTAK
+========================== */
+.berria {
+    background: #e0e0e0;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1.5px solid #8a8a8a; 
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.berria:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.berria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ==========================
+   BERRIEN TESTUA
+========================== */
+.berria-edukia {
+    padding: 25px;
+}
+
+.berria-edukia h3 {
+    font-size: 1.4em;
+    margin-bottom: 12px;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.7);
+}
+
+/* ==========================
+   "GEHIAGO IRAKURRI" BOTOIA
+========================== */
+.berria-irakurri {
+    display: inline-block;
+    margin-top: 15px;
+    background: linear-gradient(145deg, #d04b4b, #c73737); 
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 12px; 
+    border: 1.5px solid #a32b2b; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15); 
+}
+
+.berria-irakurri:hover {
+    background: linear-gradient(145deg, #8b0000, #a00000); 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3); 
+}
+
+/* ==========================
+   ORRIALDE OINA (FOOTER)
+========================== */
+footer {
+    background: linear-gradient(145deg, #1f1f1f, #3a3a3a);
+    padding: 10px 20px; 
+    color: #ffffff;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.5);
+    width: 100%; 
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4,
+footer p {
+    max-width: 1200px;
+    width: 100%;
+    margin: 3px auto; 
+}
