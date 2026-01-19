@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>GameStop Berriak by AIA</title>
+    <link>https://gamestopberriak.aia.eus/</link>
+    <description>GameStop-ekin lotutako azken berriak</description>
+    <language>eu</language>
+
+    <!-- BERRIA NAGUSIA -->
+    <item>
+      <title>Bilboko GameStop dendak “Retro Gauak” antolatuko du</title>
+      <link>https://gamestopberriak.aia.eus/retro-gauak</link>
+      <description>Bilboko GameStop denda nagusiak gau berezi bat antolatuko du. 80ko eta 90eko kontsolak, joko klasikoak eta erakusketak izango dira.</description>
+      <guid>https://gamestopberriak.aia.eus/retro-gauak</guid>
+    </item>
+
+    <!-- BERRIAK GRID-EAN -->
+    <item>
+      <title>PlayHub plataformak 100.000 erabiltzaile gainditu ditu</title>
+      <link>https://gamestopberriak.aia.eus/playhub-100000</link>
+      <description>Plataforma digitalak hazkunde handia izan du azken hilabeteetan.</description>
+      <guid>https://gamestopberriak.aia.eus/playhub-100000</guid>
+    </item>
+
+    <item>
+      <title>GameStop-ek esports txapelketa handia antolatuko du</title>
+      <link>https://gamestopberriak.aia.eus/esports-txapelketa</link>
+      <description>Fortnite, LoL eta EA FC izango dira protagonistak.</description>
+      <guid>https://gamestopberriak.aia.eus/esports-txapelketa</guid>
+    </item>
+
+    <item>
+      <title>Kontsumo-txartel berriak aurkeztu dituzte</title>
+      <link>https://gamestopberriak.aia.eus/kontsumo-txartelak</link>
+      <description>Puntuak, deskontuak eta sari digitalak eskaintzen dituzte.</description>
+      <guid>https://gamestopberriak.aia.eus/kontsumo-txartelak</guid>
+    </item>
+
+  </channel>
+</rss>
