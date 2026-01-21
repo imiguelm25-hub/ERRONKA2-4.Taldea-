@@ -1,0 +1,57 @@
+.berri_argazkia{
+    background: #dcdcdc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    border: 1.5px solid #8a8a8a; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/*RETRO GAUA*/
+.retroGaua_argazkia img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover ;
+}
+
+/*PLAY HUB*/
+.playHub_argazkia img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover ;
+}
+
+/*TXAPELKETA*/
+.txapelketa_argazkia img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover ;
+}
+
+/*KONTSUMO TXARTELA*/
+.kontsumo_txartela img{
+    height: 575px;
+    width: 100%;
+    object-fit: cover ;
+}
+
+.berria_edukia{
+    padding: 25px;
+    text-align: center;
+}
+
+.berria_edukia h3 {
+    font-size: 1.4em;
+    margin-bottom: 12px;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.7);
+    color:#8b0000
+}
+
+.berria_edukia p{
+    text-align: justify;
+}
+
+.berria_edukia ul{
+    padding: 25px;
+    text-align: left;
+}
