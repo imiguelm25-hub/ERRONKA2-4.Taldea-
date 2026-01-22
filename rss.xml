@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>GameStop Berriak</title>
+    <link>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/</link>
+    <description>GameStop-ekin lotutako azken berriak</description>
+    <language>eu</language>
+
+    <!-- RETRO GAUA -->
+    <item>
+      <title>Bilboko GameStop dendak “Retro Gauak” antolatuko du</title>
+      <link>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/retroGaua.html</link>
+      <description>Bilboko GameStop denda nagusiak gau berezi bat antolatuko du. 80ko eta 90eko kontsolak, joko klasikoak eta erakusketak izango dira.</description>
+      <guid>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/retroGaua.html</guid>
+    </item>
+
+    <!-- PLAY HUB -->
+    <item>
+      <title>PlayHub plataformak 100.000 erabiltzaile gainditu ditu</title>
+      <link>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/playHub.html</link>
+      <description>Plataforma digitalak hazkunde handia izan du azken hilabeteetan.</description>
+      <guid>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/playHub.html</guid>
+    </item>
+
+    <!-- TXAPELKETA -->
+    <item>
+      <title>GameStop-ek esports txapelketa handia antolatuko du</title>
+      <link>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/txapelketa.html</link>
+      <description>Fortnite, LoL eta EA FC izango dira protagonistak.</description>
+      <guid>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/txapelketa.html</guid>
+    </item>
+
+    <!-- KONTSUMO TXARTELA -->
+    <item>
+      <title>Kontsumo-txartel berriak aurkeztu dituzte</title>
+      <link>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/kontsumoTxartela.html</link>
+      <description>Puntuak, deskontuak eta sari digitalak eskaintzen dituzte.</description>
+      <guid>https://imiguelm25-hub.github.io/ERRONKA2-4.Taldea-/kontsumoTxartela.html</guid>
+    </item>
+
+  </channel>
+</rss>
