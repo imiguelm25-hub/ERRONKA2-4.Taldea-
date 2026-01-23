@@ -70,6 +70,16 @@ body {
     background: #e60012;
 }
 
+.header-buttons a.active {
+    background: white;
+    color: black;
+}
+
+.header-buttons a.active:hover {
+    background: #e60012;
+    color: white;
+}
+
 /* ==========================
    EDUKI NAGUSIA (MAIN)
 ========================== */
@@ -224,4 +234,5 @@ footer p {
     max-width: 1200px;
     width: 100%;
     margin: 3px auto; 
+
 }
