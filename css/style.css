@@ -169,6 +169,11 @@ main {
     object-fit: cover;
 }
 
+.rss-botoia {
+    object-fit: cover;
+    text-align: center;
+}
+
 /* ==========================
    BERRIEN TESTUA
 ========================== */
@@ -240,4 +245,5 @@ footer p {
     margin: 3px auto; 
 
 }
+
 
