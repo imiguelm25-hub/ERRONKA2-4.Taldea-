@@ -244,6 +244,17 @@ footer p {
 /* =============
    RSS BOTOIA
 ============= */
+.rss-img{
+   display: flex;
+    justify-content: right; 
+    padding: 20px;
+   
+}
+
+.rss-img img{
+    width: 40px;
+    height: 40px;
+}
 
 
 
