@@ -20,7 +20,7 @@
 
 // IZENBURUA:
 h5.harpidetza {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Segoe UI', Roboto, Inter, Arial, sans-serif;
   color: #8b0000;
   font-size: 24px;
   text-align: center;
@@ -57,10 +57,10 @@ input.harpidetza:focus {
   color: #ffffff !important;
   border-radius: 12px !important;
   border: 1.5px solid #a32b2b !important;
-  font-weight: 600 !important;
-  font-size: 1.1em !important;
+  font-weight: 600;
+  font-size: 1.1em;
   cursor: pointer;
-  transition: all 0.3s ease !important;
+  transition: all 0.3s ease;
 }
 
 .preview-submit-button button:hover {
