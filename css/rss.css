@@ -18,6 +18,7 @@
   width: 100% !important;
 }
 
+// IZENBURUA:
 h5.harpidetza {
   font-family: 'Montserrat', sans-serif;
   color: #8b0000;
@@ -26,6 +27,7 @@ h5.harpidetza {
   margin-bottom: 20px;
 }
 
+// EMAILA SARTZEKO INPUTa
 input.harpidetza {
   width: 100% !important;
   height: 45px !important;
@@ -40,12 +42,14 @@ input.harpidetza {
   box-sizing: border-box !important;
 }
 
+// INPUTa HAUTATZEN DENEAN
 input.harpidetza:focus {
   border-color: #e60012 !important;
   outline: none;
   box-shadow: 0 0 5px rgba(230, 0, 18, 0.3);
 }
 
+// BOTOIA
 .preview-submit-button button {
   width: 100% !important;
   height: 45px !important;
@@ -65,6 +69,7 @@ input.harpidetza:focus {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
+// BEHEKO ARGAZKIA (RSS)
 .rss-img {
   width: 100%;
   display: flex;
